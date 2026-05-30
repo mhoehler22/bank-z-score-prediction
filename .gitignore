@@ -1,0 +1,36 @@
+# Unrelated datasets
+corporate_stress_dataset*
+
+# Course instructions
+Instructions.docx
+
+# Original assignment-named files (replaced by clean portfolio names)
+Hoehler - Final Project - DSC550.pdf
+Hoehler - Final Project - DSC550.docx
+
+# Empty folder
+New folder/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+
+# Planning/state files
+CLAUDE.md
+PROJECT_STATE.md
+NOTEBOOKS_PLAN.md
+.claude/
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Backups
+*backup*
