@@ -70,7 +70,8 @@ Financial institution access indicators explain roughly **15% of Z-score variabi
 ```
 bank-z-score-prediction/
 │
-├── bank_z_score_prediction.pdf                              # Full written analysis and findings
+├── bank_z_score_prediction.ipynb                            # Full analysis notebook: EDA → data prep → modeling → RFE (Milestones 1–4)
+├── bank_z_score_prediction.pdf                              # Written analysis and findings
 │
 ├── Sample_bank_Country_data.csv                             # Analysis-ready dataset: country Z-scores + access indicators (merged)
 ├── Country Survey Data.csv                                  # World Bank Financial Institutions: Access indicators, by country/year
@@ -83,6 +84,24 @@ bank-z-score-prediction/
 ├── Indicator and Topic Names.xls                            # Full indicator codebook: topic and series names
 ├── Question key.xlsx                                        # Field reference: maps series codes to full descriptions
 └── P_Data_Extract_From_Global_Financial_Development.zip     # Raw World Bank Global Financial Development extract
+```
+
+---
+
+## Requirements
+
+```
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+```
+
+Install with:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
 ---
